@@ -1,0 +1,456 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html.body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(249, 249, 239);
+}
+#main{
+    
+}
+.nav{
+    height: 15vh;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid black .1vw;
+    font-family:Gilroy ;
+    padding: 0 2vw;
+    background-color: rgb(84, 81, 81);
+}
+ .logo{
+    position: relative;
+width: 15vh;
+height: 14vh;
+background-color: rgb(62, 57, 57);
+border-radius: 50%;
+background-position: center;
+background-size: cover;
+background-image: url(pizza.png);
+}
+ .listitems{
+width: 35vw;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.nav button{
+padding: .8vw 1.5vw;
+border-radius: .4vw;
+background-color: blanchedalmond;
+border: none;
+}
+.page1{
+    height: 100vh;
+    display: flex;
+}
+.left1{
+    width: 70vw;
+    height: 100vh;
+    display: flex;
+}
+.writepart{
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.writepart h1{
+    height: 60vh;
+    width: 55vh;
+    font-family: 'Berkshire Swash', cursive;   
+    text-align: center;
+    font-size: 4vw;
+}
+.writepart h1 span{
+    
+    font-family: dancing script;
+    font-size: 9vw;
+    color: transparent;
+    -webkit-text-stroke: red .1vw;
+}
+.boxpart{
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vw;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+
+.box1{
+    height: 25vh;
+    width: 35vh;
+    position: absolute;
+    left: 12vw;
+    top: 2vw;
+    border-radius: 2vw;
+    border: solid black .1vw;
+    background-image: url(box1.png);
+   background-position: center;
+   background-size: cover;
+}
+.page2 h1{
+    font-family: 'Berkshire Swash', cursive;   
+
+
+}
+.page3 h3{
+    font-family: 'Berkshire Swash', cursive;   
+  
+}
+
+.box2{
+    height: 55vh;
+    width: 30vh;
+   left: -5vw;
+    border-radius: 2vw;
+position: absolute;
+border: solid rgb(9, 9, 9) .1vw;
+background-image: url(box2.png);
+background-position: center;
+background-size: cover;
+}
+.box3{
+    height: 25vh;
+    width: 35vh;
+    position: absolute;
+    left: 55%;
+    border-radius: 2vw;
+    top: 60%;
+    border: solid rgb(223, 48, 48) .1vw;
+    background-image: url(box3.png);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.right1{
+    width: 30vw;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.image1{
+    height: 70vh;
+    width: 45vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.image1 img{
+    width: 100%;
+}
+.page2{
+    height: 120vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Gilroy;
+    background-color: lightblue;
+}
+/* .pizzaline{
+    border: solid black .1vw;
+    margin-bottom: 2vw;
+    background-color: rgb(190, 185, 179);
+
+}
+.pizzaline h1 span{
+    color:red;
+    -webkit-text-stroke: black .0001vw;
+    font-family: dancing script;
+} */
+.columns{
+    display: flex;
+    margin-top: 3vw;
+    gap: 2vw;
+}
+.popular h1{
+    font-family: dancing script;
+    font-size: 4vw;
+}
+.left2{
+    width: 30vw;
+    height: 90vh;
+    border: solid rgb(80, 70, 14) .4vw;
+    border-radius: 1vw;
+    margin-left: 2.8vw;
+}
+.left2 h1{
+    height: 35vh;
+    padding: 3vw 4vw;
+    margin-bottom: 1vw;
+}
+.left2 p{
+   padding: 0 3vw;
+   margin-bottom: 2vw;
+   font-family: 'Berkshire Swash', cursive;}
+.middle2{
+    width: 30vw;
+    height: 90vh;
+    border: solid gold .4vw;
+    border-radius: 1vw;
+}
+.middle2 h1{
+    height: 35vh;
+    padding: 3vw 4vw;
+    margin-bottom: 1vw;
+}
+.middle2 p{
+   padding: 0 1vw;
+   margin-bottom: 2vw;
+   font-family: 'Berkshire Swash', cursive;}
+.right2{
+    width: 30vw;
+    height: 90vh;
+    border: solid rgb(80, 70, 14) .4vw;
+    border-radius: 1vw;
+}
+.right2 h1{
+    height: 35vh;
+    padding: 3vw 4vw;
+    margin-bottom: 1vw;
+}
+.right2 p{
+   padding: 0 1vw;
+   margin-bottom: 2vw;
+   font-family: 'Berkshire Swash', cursive;   
+}
+.page3{
+    height: 110vh;
+    font-family: 'Berkshire Swash', cursive;   
+}
+.mainmenu{
+    text-align: center;
+    font-size: 2vw;
+}
+.columns3{
+    display: flex;
+    height: 90vh;
+    margin-top: 2vw;
+
+}
+.columns3 h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+/* box31 starting point */
+.box31{
+    width: 30vw;
+    height: 90vh;
+    border-radius: 1vw;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+/* upper */
+.up31{
+    height: 25vh;
+    display: flex;
+}
+.left31up{
+    width: 40vw;
+    height:25vh ;
+    background-image: url(https://foods.qmanja.com/MenuImages/Menu5955-pizza%208.jfif.png);
+    background-position: center;
+    background-size: cover;
+}
+.right31up{
+    width: 60vw;
+    height:25vh ;
+    padding: 1.5vw;
+    font-family: Gilroy;
+}
+/* midder */
+.middle31{
+    height: 25vh;
+    display: flex;
+
+}
+.left31mid{
+    width: 40vw;
+    height:25vh ;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://b.zmtcdn.com/data/dish_photos/868/19ba4c420f7f41819847b1c9e0b66868.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A);
+}
+.right31mid{
+    width: 60vw;
+    height:25vh ;
+    padding: 1vw;
+    font-family: Gilroy;
+}
+/* bottom */
+.bottom31{
+    height: 25vh;
+    display: flex;
+
+}
+.left31bot{
+    width: 40vw;
+    height:25vh ;
+    background-color: rgb(120, 73, 73);
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://b.zmtcdn.com/data/dish_photos/f0e/029d8af895c9bceab5cc42e5cb4bff0e.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A);
+}
+.right31bot{
+    width: 60vw;
+    height:25vh ;
+    padding: 1.5vw;
+    font-family: Gilroy;
+}
+/* box31 ending point */
+.box32{
+    width: 30vw;
+    height: 90vh;
+    border-radius: 1vw;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+/* upper */
+.up32{
+    height: 25vh;
+    display: flex;
+}
+.left32up{
+    width: 40vw;
+    height:25vh ;
+    background-image: url(https://foods.qmanja.com/MenuImages/Menu5955-pizza%208.jfif.png);
+    background-position: center;
+    background-size: cover;
+}
+.right32up{
+    width: 60vw;
+    height:25vh ;
+    padding: 1.5vw;
+    font-family: Gilroy;
+}
+/* midder */
+.middle32{
+    height: 25vh;
+    display: flex;
+
+}
+.left32mid{
+    width: 40vw;
+    height:25vh ;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://b.zmtcdn.com/data/dish_photos/868/19ba4c420f7f41819847b1c9e0b66868.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A);
+}
+.right32mid{
+    width: 60vw;
+    height:25vh ;
+    padding: 1vw;
+    font-family: Gilroy;
+}
+/* bottom */
+.bottom32{
+    height: 25vh;
+    display: flex;
+
+}
+.left32bot{
+    width: 40vw;
+    height:25vh ;
+    background-color: rgb(120, 73, 73);
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://b.zmtcdn.com/data/dish_photos/f0e/029d8af895c9bceab5cc42e5cb4bff0e.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A);
+}
+.right32bot{
+    width: 60vw;
+    height:25vh ;
+    padding: 1.5vw;
+    font-family: Gilroy;
+}
+/* box2  ending point */
+.box33{
+    width: 30vw;
+    height: 90vh;
+    border-radius: 1vw;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+/* upper */
+.up33{
+    height: 25vh;
+    display: flex;
+}
+.left33up{
+    width: 40vw;
+    height:25vh ;
+    background-image: url(https://foods.qmanja.com/MenuImages/Menu5960-Untitled-1.jpg.png);
+    background-position: center;
+    background-size: cover;
+}
+.right33up{
+    width: 60vw;
+    height:25vh ;
+    padding: 1.5vw;
+    font-family: Gilroy;
+}
+/* midder */
+.middle33{
+    height: 25vh;
+    display: flex;
+
+}
+.left33mid{
+    width: 40vw;
+    height:25vh ;
+    background-position: center;
+    background-size: cover;
+    background-image: url(https://foods.qmanja.com/MenuImages/Menu5962-DSC_3689.jpg.png);
+}
+
+.right33mid{
+    width: 60vw;
+    height:25vh ;
+    padding: 1vw;
+    font-family: Gilroy;
+}
+/* bottom */
+.bottom33{
+    height: 25vh;
+    display: flex;
+
+}
+.left33bot{
+    width: 40vw;
+    height:25vh ;
+    background-color: rgb(120, 73, 73);
+    background-position: center;
+    background-size: cover;
+background-image: url(https://foods.qmanja.com/MenuImages/Menu5965-DSC_3682.jpg.png);
+}
+.right33bot{
+    width: 60vw;
+    height:25vh ;
+    padding: 1.5vw;
+    font-family: Gilroy;
+}
+
+
+
+.page4{
+    height: 100vh;
+    background-color: lightgoldenrodyellow;
+}
